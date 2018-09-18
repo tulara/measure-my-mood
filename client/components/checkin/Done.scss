@@ -1,0 +1,16 @@
+@import '../../assets/sass/colors';
+
+.check-in_done {
+  color: $color-font-paragraph;
+  font-weight: bold;
+  margin-top:3em;
+}
+
+.check-in_done-icon {
+  margin: 0 auto 0;
+  width:25%;
+}
+
+.check-in_done-text {
+    margin-top: 1em;
+}

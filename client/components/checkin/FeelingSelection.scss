@@ -1,0 +1,33 @@
+@import '../../assets/sass/colors';
+
+.feelings-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.feelings-comments {
+  border: 1px solid $color-gray-light;
+  font-family:sans-serif;
+  min-height: 50px;
+  padding:0.8em;
+  margin-top:1em;
+  width:76%;
+}
+
+.feelings-list_error {
+  border: 2px solid $color-green-light;
+}
+
+.feelings-item {
+  margin:0.2em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.feelings-item_unselected {
+  background-color: $color-white;
+}
+
+.feelings-item_selected{
+  background-color: $color-gray-light;
+}

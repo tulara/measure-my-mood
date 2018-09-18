@@ -1,0 +1,9 @@
+@import '../../assets/sass/colors';
+
+.error {
+  background-color: $color-white;
+  border: 2px solid $color-gray-dark;
+  border-radius: 5px;
+  margin: 0.5em;
+  padding: 1em;
+}

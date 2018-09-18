@@ -1,0 +1,42 @@
+@import '../../../assets/sass/colors';
+
+.mood-entry_summary {
+    align-items: center;
+    display:grid;
+    grid-template-columns: 15% auto 15% 15%;
+    font-size: 1.2em;
+    justify-items: start;
+    line-height: 1.2em;
+    margin:5px;
+    padding: 10px 8px 8px 20px;
+}
+
+.mood-entry_icon {
+  padding-top: 2px;
+  width:50%;
+}
+
+.mood-entry_month {
+  font-size: 0.7em;
+  font-weight:bold;
+  line-height: 1em;
+}
+
+.mood-entry_carot {
+  padding:0.8em;
+}
+
+.mood-entry_carot-inner {
+  border: solid $color-gray-light;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0.2em;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.mood-entry_carot-inner:hover {
+  border: solid $color-green-light;
+  border-width: 0 4px 4px 0;
+}

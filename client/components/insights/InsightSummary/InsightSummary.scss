@@ -1,0 +1,27 @@
+@import '../../../assets/sass/colors';
+
+.insight-summary {
+  background-color: $color-white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items:center;
+  padding: 1em;
+}
+
+.insight-summary_percentage {
+  align-self: center;
+  justify-self: start;
+}
+.insight-summary_percentage-inner {
+  color: $color-green;
+  font-size:3.5em;
+}
+
+.insights-summary_icon {
+  justify-self: end;
+  margin-right:2em;
+  width: 60%;
+}
+.insight-summary_icon-placeholder {
+  opacity: 0.5;
+}

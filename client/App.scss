@@ -1,0 +1,13 @@
+@import './assets/sass/breakpoints';
+
+.app {
+  text-align: center;
+  @media (min-width: $breakpoint-desktop){
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+}
+
+.insights {
+  width: 92%;
+}

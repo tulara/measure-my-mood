@@ -1,0 +1,25 @@
+@import '../../../assets/sass/colors';
+
+.check-in {
+  padding: 2em 2em 0;
+}
+
+.check-in_button {
+  background-color: $color-green;
+  border: none;
+  border-radius: 5px;
+  color: $color-font-paragraph;
+  cursor: pointer;
+  font-weight:bold;
+  padding: 1em;
+  margin: 2em;
+  width: 80%;
+}
+
+.check-in_button:hover {
+  background-color: $color-green-light;
+}
+
+.check-in_button:disabled {
+  background-color: $color-gray-light;
+}

@@ -1,0 +1,29 @@
+@import '../../../assets/sass/colors';
+
+.mood-entry {
+  background-color: $color-white;
+  color: $color-gray-mid;
+  margin-bottom: 0.2em;
+}
+
+.mood-entry_details {
+  color: $color-gray-mid;
+  padding: 10px 8px 20px 20px;
+  text-align:left;
+}
+
+.mood-entry_feelings {
+  margin:0.4em 0;
+  padding:0.2em;
+}
+
+.mood-entry_feeling {
+  background-color:$color-gray-light;
+  border-radius:5px;
+  margin-right:0.2em;
+  padding:0.4em;
+}
+
+.mood-entry_comments {
+    margin:1.2em 0 0 0.2em;
+}
